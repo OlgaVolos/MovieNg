@@ -1,0 +1,6 @@
+.genre-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}

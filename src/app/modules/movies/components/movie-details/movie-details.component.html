@@ -1,0 +1,15 @@
+<div *ngIf="movieDetails" class="movieDetails">
+  <img src="{{imageOriginal}}" alt="background" class="back-image">
+  <div class="movieTitle">
+    <img src="{{imagePreview}}" alt="preview" class="preview">
+    <div class="movieDetailsContent">
+      <h2>{{movieDetails.title}}</h2>
+      <h3>Original title: {{movieDetails.original_title}}</h3>
+      <p>Release date: {{movieDetails.release_date}}</p>
+      <p>Original language: {{movieDetails.original_language}}</p>
+      <p>Overview: {{movieDetails.overview}}</p>
+      <p>Popularity: {{movieDetails.popularity}}</p>
+      <app-stars></app-stars>
+    </div>
+  </div>
+</div>
